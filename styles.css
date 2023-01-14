@@ -86,3 +86,9 @@ section p {
     padding-bottom: 1rem;
   }
 }
+
+@media (max-width: 330px) {
+  button {
+    margin-bottom: .5rem;
+  }
+}

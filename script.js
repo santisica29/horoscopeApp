@@ -68,7 +68,7 @@ function getHoroscope() {
     console.log('error')
   }
 
-  reset.style.display = 'block'
+  reset.style.display = 'inline-block'
   reset.addEventListener('click', function() {
     result.innerText = '';
     text.innerText = '';
